@@ -7,23 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A16256E-666
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{171EB6F1-924D-48F4-8B27-523FB539FE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.Domain.Shared", "src\Acme.BookStore.Domain.Shared\Acme.BookStore.Domain.Shared.csproj", "{93591DD4-28B2-43B9-95D8-E41ECDBD567D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Domain.Shared", "src\Acme.BookStore.Domain.Shared\Acme.BookStore.Domain.Shared.csproj", "{93591DD4-28B2-43B9-95D8-E41ECDBD567D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.Domain", "src\Acme.BookStore.Domain\Acme.BookStore.Domain.csproj", "{748C2BF7-0778-4A0E-872F-78BF0FB40D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Domain", "src\Acme.BookStore.Domain\Acme.BookStore.Domain.csproj", "{748C2BF7-0778-4A0E-872F-78BF0FB40D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.EntityFrameworkCore", "src\Acme.BookStore.EntityFrameworkCore\Acme.BookStore.EntityFrameworkCore.csproj", "{F4E04661-3188-40A6-95EF-7FE6BBB313A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.EntityFrameworkCore", "src\Acme.BookStore.EntityFrameworkCore\Acme.BookStore.EntityFrameworkCore.csproj", "{F4E04661-3188-40A6-95EF-7FE6BBB313A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.Application.Contracts", "src\Acme.BookStore.Application.Contracts\Acme.BookStore.Application.Contracts.csproj", "{3911BB61-AB12-488A-B7DD-FF0A1BF7C1D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Application.Contracts", "src\Acme.BookStore.Application.Contracts\Acme.BookStore.Application.Contracts.csproj", "{3911BB61-AB12-488A-B7DD-FF0A1BF7C1D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.Application", "src\Acme.BookStore.Application\Acme.BookStore.Application.csproj", "{1998B5BF-24A0-4FA4-A1E5-F1FDD1F3E775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Application", "src\Acme.BookStore.Application\Acme.BookStore.Application.csproj", "{1998B5BF-24A0-4FA4-A1E5-F1FDD1F3E775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.DbMigrator", "src\Acme.BookStore.DbMigrator\Acme.BookStore.DbMigrator.csproj", "{9375C8A7-6313-46F8-AD52-F6E5E97B811D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.DbMigrator", "src\Acme.BookStore.DbMigrator\Acme.BookStore.DbMigrator.csproj", "{9375C8A7-6313-46F8-AD52-F6E5E97B811D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.EntityFrameworkCore.DbMigrations", "src\Acme.BookStore.EntityFrameworkCore.DbMigrations\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj", "{05F50225-0DD6-47CE-8812-BAD5FDAD9C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.EntityFrameworkCore.DbMigrations", "src\Acme.BookStore.EntityFrameworkCore.DbMigrations\Acme.BookStore.EntityFrameworkCore.DbMigrations.csproj", "{05F50225-0DD6-47CE-8812-BAD5FDAD9C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.HttpApi", "src\Acme.BookStore.HttpApi\Acme.BookStore.HttpApi.csproj", "{AF3DE6D2-16AB-4DFB-B767-7EDD20DE79B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.HttpApi", "src\Acme.BookStore.HttpApi\Acme.BookStore.HttpApi.csproj", "{AF3DE6D2-16AB-4DFB-B767-7EDD20DE79B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.HttpApi.Client", "src\Acme.BookStore.HttpApi.Client\Acme.BookStore.HttpApi.Client.csproj", "{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.HttpApi.Client", "src\Acme.BookStore.HttpApi.Client\Acme.BookStore.HttpApi.Client.csproj", "{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.Web", "src\Acme.BookStore.Web\Acme.BookStore.Web.csproj", "{E019D203-9B34-427F-B215-7A4D055C5D39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E019D203-9B34-427F-B215-7A4D055C5D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E019D203-9B34-427F-B215-7A4D055C5D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E019D203-9B34-427F-B215-7A4D055C5D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E019D203-9B34-427F-B215-7A4D055C5D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{05F50225-0DD6-47CE-8812-BAD5FDAD9C80} = {7A16256E-6669-4743-BD3F-B2517B46D1E2}
 		{AF3DE6D2-16AB-4DFB-B767-7EDD20DE79B7} = {7A16256E-6669-4743-BD3F-B2517B46D1E2}
 		{1C59C55B-4F02-4C7E-82A7-7BAB83EE9F51} = {7A16256E-6669-4743-BD3F-B2517B46D1E2}
+		{E019D203-9B34-427F-B215-7A4D055C5D39} = {7A16256E-6669-4743-BD3F-B2517B46D1E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C51EACB-6AFC-4CDD-9201-C949EB677B7D}
