@@ -14,4 +14,9 @@
     <PackageReference Include="Volo.Abp.TenantManagement.Web" Version="1.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Acme.BookStore.Application.Contracts\Acme.BookStore.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Acme.BookStore.Domain.Shared\Acme.BookStore.Domain.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
