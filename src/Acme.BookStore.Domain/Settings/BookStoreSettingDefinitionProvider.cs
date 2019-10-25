@@ -6,7 +6,8 @@ namespace Acme.BookStore.Domain.Settings
     {
         public override void Define(ISettingDefinitionContext context)
         {
-            throw new System.NotImplementedException();
+            //Define your own settings here. Example:
+            //context.Add(new SettingDefinition(BookStoreSettings.MySetting1));
         }
     }
 }

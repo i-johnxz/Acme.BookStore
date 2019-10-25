@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Acme.BookStore.Application;
 using Acme.BookStore.Application.Contracts;
+using Acme.BookStore.Domain;
 using Acme.BookStore.Domain.Shared;
 using Acme.BookStore.Domain.Shared.Localization;
 using Acme.BookStore.Domain.Shared.MultiTenancy;
+using Acme.BookStore.EntityFrameworkCore;
+using Acme.BookStore.HttpApi;
 using Acme.BookStore.Web.Menus;
 using Localization.Resources.AbpUi;
 using Microsoft.AspNetCore.Builder;
@@ -14,6 +18,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using Volo.Abp;
 using Volo.Abp.Account.Web;
 using Volo.Abp.AspNetCore.Authentication.JwtBearer;
@@ -76,7 +81,7 @@ namespace Acme.BookStore.Web
             ConfigureSwaggerServices(context.Services);
         }
 
-        private void ConfigureUrls(IConfigurationRoot configuration)
+        private void ConfigureUrls(IConfiguration configuration)
         {
             Configure<AppUrlOptions>(options =>
             {
@@ -84,7 +89,7 @@ namespace Acme.BookStore.Web
             });
         }
 
-        private void ConfigureAuthentication(ServiceConfigurationContext context, IConfigurationRoot configuration)
+        private void ConfigureAuthentication(ServiceConfigurationContext context, IConfiguration configuration)
         {
             context.Services.AddAuthentication()
                 .AddIdentityServerAuthentication(options =>

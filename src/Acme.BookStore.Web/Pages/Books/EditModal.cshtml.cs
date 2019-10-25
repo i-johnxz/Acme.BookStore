@@ -1,6 +1,10 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Acme.BookStore.Application.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Acme.BookStore.Web.Pages.Books
 {
@@ -9,6 +13,7 @@ namespace Acme.BookStore.Web.Pages.Books
         [HiddenInput]
         [BindProperty(SupportsGet = true)]
         public Guid Id { get; set; }
+
 
         [BindProperty]
         public CreateUpdateBookDto Book { get; set; }
@@ -25,6 +30,7 @@ namespace Acme.BookStore.Web.Pages.Books
             var bookDto = await _bookAppService.GetAsync(Id);
             Book = ObjectMapper.Map<BookDto, CreateUpdateBookDto>(bookDto);
         }
+
 
         public async Task<IActionResult> OnPostAsync()
         {

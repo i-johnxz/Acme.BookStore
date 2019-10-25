@@ -1,10 +1,17 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Acme.BookStore.Application.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Acme.BookStore.Web.Pages.Books
 {
     public class CreateModalModel : BookStorePageModelBase
     {
+
+
         [BindProperty]
         public CreateUpdateBookDto Book { get; set; }
 

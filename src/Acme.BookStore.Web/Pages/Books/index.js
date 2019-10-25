@@ -13,7 +13,7 @@
         autoWidth: false,
         scrollCollapse: true,
         order: [[1, "asc"]],
-        ajax: abp.libs.datatables.createAjax(acme.bookStore.book.getList),
+        ajax: abp.libs.datatables.createAjax(acme.bookStore.application.book.getList),
         columnDefs: [
             {
                 rowAction: {
